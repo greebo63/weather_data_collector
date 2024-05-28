@@ -1,0 +1,23 @@
+{
+    "current": {
+        "interval": 900,
+        "precipitation_probability": 0,
+        "temperature_2m": 26.0,
+        "time": "2024-05-28T13:15",
+        "wind_speed_10m": 5.1
+    },
+    "current_units": {
+        "interval": "seconds",
+        "precipitation_probability": "%",
+        "temperature_2m": "\u00b0C",
+        "time": "iso8601",
+        "wind_speed_10m": "km/h"
+    },
+    "elevation": 133.0,
+    "generationtime_ms": 0.04291534423828125,
+    "latitude": 55.75,
+    "longitude": 37.5,
+    "timezone": "GMT",
+    "timezone_abbreviation": "GMT",
+    "utc_offset_seconds": 0
+}
