@@ -1,5 +1,3 @@
-import datetime
-import requests
 from city import city
 
 kazan_lat = 55.8304307
@@ -11,10 +9,10 @@ nb_lat = 56.126209
 weather_variables = 'temperature_2m,wind_speed_10m,precipitation_probability'
 
 kazan = city('Kazan', latitude=kazan_lat, longitude=kazan_lon)
-kazan.weather_get(weather_variables)
+kazan.weather_get_csv(weather_variables)
 
 moscow = city('Moscow', latitude=moscow_lat, longitude=moscow_lon)
-moscow.weather_get(weather_variables)
+moscow.weather_get_csv(weather_variables)
 
-nb = city('Nikolo-Beryozovka', latitude=nb_lat,longitude=nb_lon)
-nb.weather_get(weather_variables)
+nb = city('Nikolo-Beryozovka', latitude=nb_lat, longitude=nb_lon)
+nb.weather_get_csv(weather_variables)
